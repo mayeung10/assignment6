@@ -1,0 +1,129 @@
+/** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}*/
+.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+
+.video-title {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 5px;
+}
+/*
+.profile-picture {
+  width: 100px;
+  border-radius: 50px;
+}*/
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+.thumbnail-row1 {
+  width: 400px;height: 500px;
+  margin-bottom: 12px;
+}
+
+/*.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}*/
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 40px; 
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+.country {
+  background-color: rgb(84, 233, 79);
+  color:rgb(214, 14, 31);
+  padding: 10px;
+  font-size: 32px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(102, 207, 22);
+ 
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 65px;
+  left: 60px;
+  background-color: lightblue;
+  width: 300px;
+}
+.top-right {
+  position: absolute;
+  top: 65px;
+  right: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: lightblue;
+  color: rgb(68, 18, 216);
+  width: 250px
+}
+ 
+.container {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(202, 240, 112);
+  
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  width: 150px;
+  line-height: 3em;
+  color: rgb(69, 15, 230);
+  /*font-variant: small-caps;*/
+  border: 2px solid white;
+  flex-grow: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
